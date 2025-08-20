@@ -23,5 +23,5 @@ RAG fixes this as it lets the model pull in up-to-date or domain-specific knowle
 2. LLMs can sometimes make up facts when they don’t know the answer.
 - RAG reduces this as it grounds the model’s response in retrieved, factual content, making answers more reliable.
 
-3. You can’t train a model on everything. And training/fine-tuning is expensive.
+3. It is not possible to train a model on everything. And training/fine-tuning is expensive.
 - RAG is cheaper & more flexible: The knowledge base can be updated without retraining the model by simply changing the documents the retriever searches.
